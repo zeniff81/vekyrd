@@ -1,0 +1,56 @@
+.adsietepasos {
+	position: relative;
+	font-family: impact-reg;
+	height: 200px;
+	width: 420px;
+	overflow: hidden;
+	box-sizing: border-box;
+	overflow: hidden;
+
+	.backgroundImg {
+		height: 100%;
+		width: 100%;
+	}
+
+	.sietecontainer {
+		position: absolute;
+		top: 0.1rem;
+		right: 0rem;
+	}
+	.siete {
+		position: absolute;
+		color: yellow;
+		top: 1.3rem;
+		right: 2rem;
+		line-height: 7rem;
+		font-size: 10rem;
+		height: 7rem;
+	}
+
+	.cuadro {
+		position: absolute;
+		background: green;
+		top: 0;
+		height: 3rem;
+		width: 100%;
+	}
+
+	.pasos {
+		position: absolute;
+		box-shadow: 2px 2px 2px #444;
+		color: white;
+		bottom: 1rem;
+		right: 1rem;
+		font-size: 4rem;
+		line-height: 3rem;
+	}
+
+	.cabello {
+		position: absolute;
+		color: white;
+		font-family: impact-reg;
+		top: 0.5rem;
+		right: 8rem;
+		font-size: 1.6rem;
+	}
+}

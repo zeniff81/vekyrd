@@ -1,0 +1,43 @@
+.cartwidget {
+  align-items: center;
+  background: $color-primary;
+  border-radius: 50%;
+  display: flex;
+  height: 1.5rem;
+  justify-content: center;
+  padding: 6px;
+  position: relative;
+  width: 1.5rem;
+  z-index: 100;
+
+  .count {
+    position: absolute;
+    top: -0.5rem;
+    right: -0.6rem;
+    color: white;
+    padding: 2px;
+  }
+
+  .animateCount {
+    animation: animateCount 1s ease-in;
+  }
+
+  @keyframes animateCount {
+    0% {
+      transform: translateX(-7px);
+    }
+    10% {
+      transform: translateX(7px);
+    }
+    20% {
+      transform: translateX(0px);
+    }
+    100% {
+      transform: translateX(0px);
+    }
+  }
+
+  img {
+    width: 1.6rem;
+  }
+}

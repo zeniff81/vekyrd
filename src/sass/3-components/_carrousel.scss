@@ -1,0 +1,29 @@
+$arrow-size: 1rem;
+
+.carrousel {
+  display: grid;
+  grid-template-columns: 35px auto 35px;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    min-width: 250px;
+    padding: 1rem 0;
+  }
+
+  .button-right {
+    transform: rotate(180deg);
+  }
+  // arrow
+  .c-arrow {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,42 @@
+.cardflipper {
+  box-shadow: 1px 1px 5px #d2d2d2;
+  position: relative;
+  cursor: pointer;
+  height: 182px;
+  width: 322px;
+  overflow: hidden;
+  transition: box-shadow 100ms;
+  $animationSpeed: 400ms;
+  margin: 1rem;
+
+  &:hover {
+    box-shadow: 4px 4px 4px #e3e3e3;
+  }
+
+  .flipIcon {
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translate(-5px, 7px);
+    transition: opacity 400ms;
+  }
+
+  .card-container {
+    @extend .flex-center-all;
+    position: relative;
+    transition: transform $animationSpeed;
+    height: 100%;
+    width: 100%;
+    transform-style: preserve-3d;
+
+    .back {
+      transition: opacity $animationSpeed;
+      transform: rotateY(180deg);
+    }
+
+    .front {
+      transition: opacity $animationSpeed;
+      position: absolute;
+    }
+  }
+}

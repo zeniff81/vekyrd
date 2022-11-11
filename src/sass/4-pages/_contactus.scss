@@ -1,0 +1,13 @@
+.contactus {
+  align-items: center;
+  background-color: tint(gray, 95%);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  h1 {
+    color: $color-primary;
+    width: 100%;
+    text-align: center;
+  }
+}

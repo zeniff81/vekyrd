@@ -1,0 +1,15 @@
+.buttonicon {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  img {
+    height: 1.2rem;
+  }
+
+  button {
+    border: none;
+    background: none;
+    color: white;
+  }
+}

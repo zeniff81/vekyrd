@@ -1,0 +1,70 @@
+.homemain {
+	.ads {
+		border: 1px solid red;
+	}
+
+	.stripe-logo {
+	}
+
+	.stripe {
+		$blue: #243f52;
+		$light-blue: #5a97bd;
+		background: rgb(69, 102, 148);
+		background: linear-gradient(
+			90deg,
+			$blue 0%,
+			$blue 14%,
+			$light-blue 21%,
+			$blue 28%,
+			$blue 62%,
+			$light-blue 70%,
+			$blue 76%,
+			$blue 100%
+		);
+		height: 10px;
+		opacity: 0.9;
+		width: 100%;
+		z-index: 2;
+	}
+
+	.logoTiempo {
+		background: $light-gray;
+		display: flex;
+		justify-content: center;
+		opacity: 0.9;
+		width: 100%;
+		z-index: 2;
+
+		img {
+			margin: 2rem 0;
+		}
+	}
+
+	.homePromoProducts {
+		display: flex;
+		flex-wrap: wrap;
+		margin: 0 auto;
+		justify-content: center;
+	}
+
+	.contact-number {
+		text-align: center;
+		line-height: 0.5rem;
+		margin-bottom: 2rem;
+
+		img {
+			height: 1.3rem;
+			margin: 0 0.5rem;
+			width: auto;
+		}
+	}
+}
+
+//- - - - - - - - - - - - - - - - tablet 768px - - - - - - - - - - - - - - - - - -
+@media screen and (min-width: 765px) {
+	.homemain {
+		grid-template-rows: 400px 200px auto;
+	}
+}
+//- - - - - - - - - - - - - - - - laptop 1024 px - - - - - - - - - - - - - - - - -
+//- - - - - - - - - - - - - - - - widescreen 1440px  - - - - - - - - - - - - - - -

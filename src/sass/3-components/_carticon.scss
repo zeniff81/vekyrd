@@ -1,0 +1,23 @@
+.carticon {
+  position: relative;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.carticon-img {
+  width: 1.5rem;
+}
+
+.cart-count {
+  background: $color-primary;
+  color: white;
+  line-height: 0.8rem;
+  text-align: center;
+  padding: 0.1rem;
+  border-radius: 1rem;
+  font-size: 0.8rem;
+  width: 0.8rem;
+  height: 0.8rem;
+  position: absolute;
+  transform: translate(0.6rem, -0.6rem);
+}

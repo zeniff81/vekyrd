@@ -1,0 +1,21 @@
+.sharebuttons {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+
+  .buttons {
+    display: flex;
+  }
+
+  img {
+    margin: 0.3rem 0.5rem;
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+
+  .label {
+    font-size: 0.8rem;
+  }
+}

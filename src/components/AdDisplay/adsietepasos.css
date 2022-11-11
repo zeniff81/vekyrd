@@ -1,0 +1,60 @@
+.adsietepasos {
+  position: relative;
+  font-family: impact-reg;
+  height: 200px;
+  width: 420px;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow: hidden;
+}
+
+.adsietepasos .backgroundImg {
+  height: 100%;
+  width: 100%;
+}
+
+.adsietepasos .sietecontainer {
+  position: absolute;
+  top: 0.1rem;
+  right: 0rem;
+}
+
+.adsietepasos .siete {
+  position: absolute;
+  color: yellow;
+  top: 1.3rem;
+  right: 2rem;
+  line-height: 7rem;
+  font-size: 10rem;
+  height: 7rem;
+}
+
+.adsietepasos .cuadro {
+  position: absolute;
+  background: green;
+  top: 0;
+  height: 3rem;
+  width: 100%;
+}
+
+.adsietepasos .pasos {
+  position: absolute;
+  -webkit-box-shadow: 2px 2px 2px #444;
+          box-shadow: 2px 2px 2px #444;
+  color: white;
+  bottom: 1rem;
+  right: 1rem;
+  font-size: 4rem;
+  line-height: 3rem;
+}
+
+.adsietepasos .cabello {
+  position: absolute;
+  color: white;
+  font-family: impact-reg;
+  top: 0.5rem;
+  right: 8rem;
+  font-size: 1.6rem;
+}
+/*# sourceMappingURL=adsietepasos.css.map */

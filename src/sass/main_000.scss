@@ -1,0 +1,60 @@
+@import "./1-abstracts/variables";
+@import "./1-abstracts/mixins";
+
+@import "./3-components/adminheader";
+@import "./3-components/bannercarrouselmobile";
+@import "./3-components/burger";
+@import "./3-components/button";
+@import "./3-components/cardflipper";
+@import "./3-components/carrousel";
+@import "./3-components/carrouselarrow";
+@import "./3-components/carticon";
+@import "./3-components/catalogitem";
+@import "./3-components/footer";
+@import "./3-components/header";
+@import "./3-components/menu";
+@import "./3-components/menumobile";
+@import "./3-components/menuoptions";
+@import "./3-components/modal";
+@import "./3-components/ouragent";
+@import "./3-components/product";
+@import "./3-components/productv2";
+@import "./3-components/socialmedia";
+@import "./3-components/whatsappicon";
+@import "./3-components/productdetails";
+@import "./3-components/sharebuttons";
+@import "./3-components/buttonicon";
+@import "./3-components/buttonprimary";
+@import "./3-components/cartwidget";
+@import "./3-components/cartitem";
+@import "./3-components/cart";
+@import "./3-components/orders";
+@import "./3-components/ordersitem";
+@import "./3-components/randomproducts";
+
+@import "./4-pages/about";
+@import "./4-pages/admin";
+@import "./4-pages/adminproducts";
+@import "./4-pages/channels";
+@import "./4-pages/contactus";
+@import "./4-pages/contactemail";
+@import "./4-pages/homemain";
+@import "./4-pages/homeproducts";
+@import "./4-pages/products";
+@import "./4-pages/ForgotPasswordScreen";
+@import "./4-pages/LoginScreen";
+@import "./4-pages/PrivateScreen";
+@import "./4-pages/ResetPasswordScreen";
+@import "./4-pages/RegisterScreen";
+@import "./4-pages/auth-page";
+@import "./4-pages/orderconfirmation";
+@import "./4-pages/ordersubmitted";
+
+@import "./reset";
+@import "./fontface";
+
+//- - - - - - - - - - - - - - - - tablet 768px - - - - - - - - - - - - - - - - - -
+// @media screen and (min-width: 768px) {
+// }
+//- - - - - - - - - - - - - - - - laptop 1024 px - - - - - - - - - - - - - - - - -
+//- - - - - - - - - - - - - - - - widescreen 1440px  - - - - - - - - - - - - - - -

@@ -1,0 +1,179 @@
+.catalogitem {
+  border: 2px solid #ffffff;
+  background: tint(gray, 95%);
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  transition: transform 50ms ease-in-out;
+  width: 320px;
+
+  .image {
+    box-shadow: 1px 1px 5px gray;
+    height: 180px;
+    position: absolute;
+    width: 150px;
+  }
+
+  .index {
+    background: #444444;
+    color: white;
+    font-size: 0.8rem;
+    left: 0;
+    padding: 0.2rem;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    top: 0;
+    width: 60px;
+  }
+
+  //   details
+  .details {
+    display: flex;
+    flex-direction: column;
+    height: 180px;
+    justify-content: space-between;
+    margin-bottom: 0.3rem;
+    text-align: right;
+    width: 150px;
+
+    .info {
+      display: flex;
+      flex-direction: column;
+      height: 110px;
+      justify-content: flex-start;
+      justify-content: space-between;
+      margin-right: 12px;
+      margin-top: 12px;
+
+      > .info-title {
+        text-transform: uppercase;
+        font-size: 0.8rem;
+        font-weight: bold;
+        max-height: 35px;
+        overflow: hidden;
+      }
+
+      > .info-weight {
+        color: $color-primary;
+        margin-bottom: 1rem;
+        margin-bottom: auto;
+      }
+
+      > .info-description {
+        color: gray;
+        margin: 0;
+        font-size: 0.8rem;
+        line-height: 0.8rem;
+        overflow: hidden;
+        &::first-letter {
+          text-transform: capitalize;
+        }
+      }
+    }
+
+    > .price {
+      font-weight: bold;
+      font-size: 1.3rem;
+      color: #888;
+      margin-right: 12px;
+    }
+
+    > .btn-add-cart {
+      display: flex;
+
+      align-self: flex-end;
+      position: relative;
+    }
+
+    .tick-icon {
+      transition: all 200ms;
+    }
+
+    .popup {
+      content: "Artículo añadido";
+      background: #444;
+      color: white;
+      position: absolute;
+      right: 0;
+      padding: 2px 7px;
+      opacity: 0;
+      top: 0rem;
+    }
+
+    .showPopup {
+      animation: animatePopup 2.5s ease-in-out;
+    }
+  }
+
+  @keyframes animatePopup {
+    0% {
+      top: 0;
+      opacity: 0;
+    }
+    10% {
+      top: -1.7rem;
+      opacity: 1;
+    }
+
+    13% {
+      top: -1.4rem;
+      opacity: 1;
+    }
+    90% {
+      top: -1.4rem;
+      opacity: 1;
+    }
+    100% {
+      top: 0;
+      opacity: 0;
+    }
+  }
+}
+
+.catalogitemback {
+  align-items: center;
+  background: #e3e3e3;
+  display: flex;
+  flex-direction: column;
+  height: 180px;
+  justify-content: flex-start;
+  text-align: center;
+  padding: 0 1rem;
+  overflow: hidden;
+
+  .caption {
+    font-style: italic;
+    color: #888;
+    margin: 0.5rem 0;
+    animation: aniShowCatalogItemBack 2s linear;
+  }
+
+  h4 {
+    animation: aniShowCatalogItemBack 2s ease-in;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 0.5rem;
+  }
+
+  p {
+    animation: aniShowCatalogItemBack 3s ease-in-out;
+    font-size: 0.9rem;
+    opacity: 0.5;
+    margin: 0;
+    margin-bottom: 0.5;
+  }
+}
+
+@keyframes aniShowCatalogItemBack {
+  0% {
+    opacity: 0;
+    transform: translateY(2rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

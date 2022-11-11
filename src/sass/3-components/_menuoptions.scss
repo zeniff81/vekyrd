@@ -1,0 +1,32 @@
+// menuoptions
+.menuoptions {
+  background: #484748;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  top: 35px;
+  transform: translateX(100%);
+  transition: 200ms ease-out;
+  width: 180px;
+
+  li {
+    align-items: center;
+    transition: background-color 200ms;
+  }
+  li:hover {
+    background: $color-tertiary;
+  }
+
+  a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding: 1rem;
+  }
+}
+
+.menuoptions-visible {
+  transform: translateX(0%);
+}

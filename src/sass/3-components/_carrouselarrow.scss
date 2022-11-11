@@ -1,0 +1,20 @@
+.c-arrow {
+  height: 1rem;
+  position: relative;
+  overflow: hidden;
+  width: 2rem;
+}
+
+.c-arrow-item {
+  height: 1rem;
+  width: 1rem;
+  position: absolute;
+  bottom: 0;
+  background: $color-primary;
+  transform: rotate(45deg) translate(8px, 8px);
+  cursor: pointer;
+}
+
+.c-arrow-item:hover {
+  background: $color-tertiary;
+}

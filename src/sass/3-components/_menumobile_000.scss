@@ -1,0 +1,86 @@
+.menumobile-protected-space {
+  height: 12px;
+  width: 300px;
+}
+
+.menumobile {
+  align-items: center;
+  background: darken($color-primary, 60%);
+  display: flex;
+  height: 45px;
+  justify-content: space-between;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 5;
+
+  // logo
+  .logo {
+    margin-left: 1rem;
+  }
+
+  a {
+    height: 20px;
+  }
+
+  img {
+    height: 100%;
+  }
+
+  // icons
+  .menumobile-icons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+
+    a {
+      color: white;
+    }
+  }
+
+  // menumobile-icons-item
+  .menumobile-icons-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    .logo-contactus {
+      width: 1rem;
+    }
+  }
+
+  .currentUser {
+    color: tint($color-tertiary, 50%);
+    font-style: italic;
+
+    margin-right: 1rem;
+  }
+
+  //burger
+  .burger {
+  }
+
+  //- - - - - - - - - - - - - - - - small phone 425px - - - - - - - - - - - - - - - - - -
+  @media screen and(max-width: 425px) {
+    .contact {
+      display: none;
+    }
+  }
+  //- - - - - - - - - - - - - - - - tablet 768px - - - - - - - - - - - - - - - - - -
+  @media screen and (max-width: 768px) {
+    .currentUser,
+    .icons-center {
+      display: none;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    .icons-right {
+      border: 1px solid green;
+      display: none;
+    }
+  }
+  //- - - - - - - - - - - - - - - - laptop 1024 px - - - - - - - - - - - - - - - - -
+  //- - - - - - - - - - - - - - - - widescreen 1440px  - - - - - - - - - - - - - - -
+}

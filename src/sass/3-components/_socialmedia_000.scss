@@ -1,0 +1,17 @@
+.social-media {
+  display: flex;
+  gap: 1rem;
+
+  img {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .sm-img-container {
+    transition: transform 100ms ease-in;
+  }
+
+  .sm-img-container:hover {
+    transform: scale(1.3);
+  }
+}

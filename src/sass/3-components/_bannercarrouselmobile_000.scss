@@ -1,0 +1,46 @@
+.bannercarrouselmobile {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+
+  .img-background {
+    height: auto;
+    position: absolute;
+    transform: translateY(-100px);
+    width: 100%;
+    z-index: -1 !important;
+    transition: all 600ms;
+
+    &.hideElements {
+      opacity: 0;
+    }
+  }
+
+  .logo-container {
+    left: 2rem;
+    position: absolute;
+    top: 1rem;
+    transition: all 400ms;
+    z-index: 1;
+
+    &.hideElements {
+      opacity: 0;
+      transform: translate(100px, 3px);
+    }
+
+    .img-logo {
+      animation: animate-logo 4s alternate infinite;
+      height: 150px;
+      width: auto;
+    }
+  }
+
+  @keyframes animate-logo {
+    0% {
+      transform: scale(0.9);
+    }
+    100% {
+      transform: scale(1.1);
+    }
+  }
+}

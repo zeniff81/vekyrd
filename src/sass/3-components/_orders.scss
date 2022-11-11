@@ -1,0 +1,44 @@
+.orders {
+  background: #e5e5e5;
+  padding: 1rem 0;
+
+  .list {
+    overflow: auto;
+  }
+
+  .orders-list {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .filter {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+    justify-content: space-around;
+    margin: 1rem;
+
+    .approved {
+      background: green;
+      color: white;
+    }
+    .cancelled {
+      background: darkred;
+      color: white;
+    }
+    .pending {
+      background: black;
+      color: white;
+    }
+    .all {
+      background: gray;
+      color: white;
+    }
+  }
+}

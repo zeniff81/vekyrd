@@ -1,0 +1,35 @@
+.adminheader {
+  color: $color-primary;
+
+  a {
+    color: black;
+  }
+
+  .btn-back-to-admin {
+    position: absolute;
+    top: 0.7rem;
+    left: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    span {
+      font-weight: bold;
+      font-size: 1.3rem;
+    }
+  }
+
+  h1 {
+    font-size: 2rem;
+    margin: 1rem 0;
+    text-align: center;
+  }
+
+  h2 {
+    background: $color-primary;
+    color: white;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    text-align: center;
+  }
+}

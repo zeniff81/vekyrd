@@ -1,0 +1,12 @@
+$currentWidth: 100vw;
+
+.addisplay {
+	align-items: center;
+	box-sizing: border-box;
+	display: flex;
+	height: 100%;
+	justify-content: center;
+	overflow: hidden;
+	width: 100%;
+	max-width: 480px;
+}

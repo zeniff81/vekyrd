@@ -1,0 +1,27 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+
+  max-width: 600px;
+
+  li {
+    margin: 0 1rem;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .selected {
+    color: $color-tertiary !important;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .menu {
+    display: none;
+  }
+}

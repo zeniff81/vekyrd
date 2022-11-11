@@ -1,0 +1,63 @@
+.adprepoo {
+	position: relative;
+	font-family: impact-reg;
+	height: 200px;
+	width: 420px;
+	overflow: hidden;
+	box-sizing: border-box;
+	overflow: hidden;
+
+	.imgprepoo {
+		height: 100%;
+		width: 100%;
+	}
+
+	// text 1
+	.text1 {
+		font-family: impact-reg;
+		position: absolute;
+		top: 0.5rem;
+		right: 1rem;
+		color: white;
+
+		.brillo {
+			font-size: 53px;
+		}
+
+		.suavidad {
+			font-size: 54px;
+		}
+		.salud {
+			font-size: 54px;
+		}
+	}
+
+	// text2
+	.text2 {
+		position: absolute;
+		top: 1rem;
+		right: 1rem;
+		color: white;
+		font-size: 2rem;
+		font-family: impact-reg;
+		text-align: center;
+
+		.prueba {
+			opacity: 0;
+			color: yellow;
+			font-size: 43px;
+		}
+
+		.prepoo {
+			opacity: 0;
+			font-size: 75px;
+			color: yellow;
+		}
+
+		.logo {
+			bottom: 1rem;
+			right: 1rem;
+			width: 155px;
+		}
+	}
+}
